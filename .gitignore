@@ -1,3 +1,2 @@
 # Files larger than GitHub LFS limit
-data_source/
-outputs/
+data_source/dataset/glamira_ubl_oct2019_nov2019.tar.gz >> .gitignore

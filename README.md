@@ -75,7 +75,7 @@ Workflow summary:
 │       └── README.md
 │
 ├── README.md                    # Project documentation
-└── .gitattributes
+
 
 </pre>
 
