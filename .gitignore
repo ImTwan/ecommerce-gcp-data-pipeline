@@ -7,11 +7,11 @@ data_source/log/*
 data_source/tmp/*
 outputs/*
 
-# Allow folder structure to exist
-!data_source/dataset/.gitkeep
-!data_source/log/.gitkeep
-!data_source/tmp/.gitkeep
-!outputs/.gitkeep
+# # Allow folder structure to exist
+# !data_source/dataset/.gitkeep
+# !data_source/log/.gitkeep
+# !data_source/tmp/.gitkeep
+# !outputs/.gitkeep
 
 
 
