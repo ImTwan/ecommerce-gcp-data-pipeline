@@ -1,8 +1,10 @@
 # End-to-End Data Engineering Pipeline on GCP using Glamira dataset
 # 📌 Project Overview
-This project implements a production-style, end-to-end data engineering pipeline using Google Cloud Platform (GCP).
+This project implements a production-style, end-to-end data engineering pipeline using Google Cloud Platform (GCP). </br>
 It covers the project's workflow:
+
 <img src="workflow.PNG" alt="image" width="1000"/>
+
 The pipeline processes large-scale MongoDB data, enriches it with IP geolocation, loads it into BigQuery, transforms it using dbt, and prepares analytics-ready datasets for BI reporting (Looker).
 
 # 🏗️ Architecture Overview
@@ -135,4 +137,4 @@ For more detail about every in the project:
 * Extract: https://github.com/ImTwan/Data-Collection-Storage.git
 * Loading: https://github.com/ImTwan/Data-Pipeline-Storage.git
 * Transform: https://github.com/ImTwan/Data-Transformation-Visualization-DBT.git
-Link to the project's dataset: https://drive.google.com/drive/folders/1V2_LSDwkKMJn2_fF8UfjKngk3QcIvRdd?usp=sharing
+* Link to the project's dataset: https://drive.google.com/drive/folders/1V2_LSDwkKMJn2_fF8UfjKngk3QcIvRdd?usp=sharing
