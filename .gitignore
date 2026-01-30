@@ -6,7 +6,6 @@ data_source/dataset/*
 data_source/log/*
 data_source/tmp/*
 outputs/*
-data_source/json_key/*
 
 # Allow folder structure to exist
 !data_source/dataset/.gitkeep
