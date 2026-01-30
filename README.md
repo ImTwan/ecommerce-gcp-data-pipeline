@@ -1,4 +1,4 @@
-# End-to-End Data Engineering Pipeline on GCP using Glamira dataset
+# End-to-End Data Engineering Pipeline on GCP
 # 📌 Project Overview
 This project implements a production-style, end-to-end data engineering pipeline using Google Cloud Platform (GCP). </br>
 It covers the project's workflow:
