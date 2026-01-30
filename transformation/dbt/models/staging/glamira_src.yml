@@ -1,0 +1,10 @@
+sources:
+  - name: glamira
+    database: fresh-ocean-475916-m2
+    schema: glamira_dataset
+    tables:
+      - name: crawl_product
+      - name: ip_locations
+      - name: glamira_raw 
+
+      

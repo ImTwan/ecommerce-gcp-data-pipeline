@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "BigQuery",
+            "authenticator": "CLI",
+            "location": "us",
+            "previewLimit": 50,
+            "driver": "BigQuery",
+            "projectId": "fresh-ocean-475916-m2"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "dbt.enableNewLineagePanel": false
+}

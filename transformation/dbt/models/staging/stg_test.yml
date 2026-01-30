@@ -1,0 +1,17 @@
+models: 
+  - name: stg_products
+    description: "Staging table for products data"
+    columns:
+    - name: product_id
+      description: "Primary key for products"
+      tests:
+        - not_null
+        - unique
+  - name: stg_store
+    description: "Staging table for store data"
+    columns:
+    - name: store_id
+      description: "Primary key for store"
+      tests:
+        - not_null
+        - unique

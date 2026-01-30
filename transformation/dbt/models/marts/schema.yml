@@ -1,0 +1,56 @@
+models:
+  - name: dim_customers
+    description: "Dimension table for customers"
+    columns:
+      - name: customer_id
+        description: "Primary key for customers"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_location
+    description: "Dimension table for locations"
+    columns:
+      - name: location_id
+        description: "Primary key for locations"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_products
+    description: "Dimension table for products"
+    columns:
+      - name: product_id
+        description: "Primary key for products"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_store
+    description: "Dimension table for stores"
+    columns:
+      - name: store_id
+        description: "Primary key for stores"
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_date
+    description: "Dimension table for dates"
+    columns:
+      - name: date_id
+        description: "Primary key for date dimension"
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_sales_order
+    description: "Fact table for sales orders"
+    columns:
+      - name: SK_Fact_Sales
+        description: "Primary key for sales order fact table"
+        tests:
+          - not_null
+          - unique
+
+      
