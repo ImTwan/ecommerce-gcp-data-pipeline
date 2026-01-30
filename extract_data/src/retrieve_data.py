@@ -6,7 +6,7 @@ MONGO_URL = "mongodb://34.134.190.155:27017/"
 DB_NAME = "countly"
 COLLECTION = "summary"
 
-OUTPUT_FILE = "D:\python try hard\project5\Project-05-Data-Collection-Storage-Foundation\csv files result\product_ids_to_crawl.csv"
+OUTPUT_FILE = "D:\python_try_hard\unigap\glamira_project\outputs\product_ids_to_crawl.csv"
 
 TARGET_COLLECTIONS = {
     "view_product_detail",

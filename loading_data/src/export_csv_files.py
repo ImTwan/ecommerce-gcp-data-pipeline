@@ -13,7 +13,7 @@ def export_to_gcs():
     # -----------------------------------------------------------
     # Logging setup
     # -----------------------------------------------------------
-    LOG_DIR = r"D:\python_try_hard\unigap\glamira_project\loading_data\data\log"
+    LOG_DIR = r"D:\python_try_hard\unigap\glamira_project\data_source\log"
     if not os.path.exists(LOG_DIR):
             os.makedirs(LOG_DIR)
 
@@ -42,7 +42,7 @@ def export_to_gcs():
         # -----------------------------------------------------------
         # 2. Load service account credentials
         # -----------------------------------------------------------
-        KEY_PATH = r"D:\python_try_hard\unigap\glamira_project\loading_data\data\json_key\fresh-ocean-475916-m2-d87215690697.json"
+        KEY_PATH = r"D:\python_try_hard\unigap\glamira_project\data_source\json_key\fresh-ocean-475916-m2-d87215690697.json"
 
         logging.info("Loading GCS credentials...")
 
@@ -59,9 +59,9 @@ def export_to_gcs():
         # 3. Files to export
         # -----------------------------------------------------------
         csv_files = [
-            r"D:\python_try_hard\unigap\glamira_project\loading_data\data\csv\ip_location_results.csv",
-            r"D:\python_try_hard\unigap\glamira_project\loading_data\data\csv\product_ids_to_crawl.csv",
-            r"D:\python_try_hard\unigap\glamira_project\loading_data\data\csv\product_info.csv"
+            r"D:\python_try_hard\unigap\glamira_project\outputs\ip_location_results.csv",
+            r"D:\python_try_hard\unigap\glamira_project\outputs\product_ids_to_crawl.csv",
+            r"D:\python_try_hard\unigap\glamira_project\outputs\product_info.csv"
         ]
 
         # BUCKET_NAME = "project5a"

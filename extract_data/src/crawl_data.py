@@ -7,8 +7,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-INPUT = r"D:\python try hard\unigap\project5\Project-05-Data-Collection-Storage-Foundation\csv files result\product_ids_to_crawl.csv"
-OUTPUT = r"D:\python try hard\unigap\project5\Project-05-Data-Collection-Storage-Foundation\csv files result\product_info.csv"
+INPUT = r"D:\python_try_hard\unigap\glamira_project\outputs\product_ids_to_crawl.csv"
+OUTPUT = r"D:\python_try_hard\unigap\glamira_project\outputs\product_info.csv"
 
 HEADERS_LIST = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",

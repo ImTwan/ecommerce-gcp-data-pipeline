@@ -7,8 +7,8 @@ MONGO_URI = "mongodb://34.134.190.155:27017/"
 DB_NAME = "countly"
 MAIN_COLLECTION = "summary"
 OUTPUT_COLLECTION = "ip_location_results"
-OUTPUT_CSV = "D:\python try hard\project5\Project-05-Data-Collection-Storage-Foundation\csv files result\ip_location_results.csv"
-BIN_FILE = r"D:\python try hard\project5\Project-05-Data-Collection-Storage-Foundation\dataset\IP-COUNTRY-REGION-CITY.BIN"
+OUTPUT_CSV = "D:\python_try_hard\unigap\glamira_project\outputs\ip_location_results.csv"
+BIN_FILE = r"D:\python_try_hard\unigap\glamira_project\data_source\dataset\IP-COUNTRY-REGION-CITY.BIN"
 BATCH_SIZE = 50000
 
 def process_ip_locations():

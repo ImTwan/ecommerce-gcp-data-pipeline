@@ -1,17 +1,2 @@
-# =========================
-# Data source (large files)
-# =========================
-
-data_source/dataset/*
-data_source/log/*
-data_source/tmp/*
-outputs/*
-
-# # Allow folder structure to exist
-# !data_source/dataset/.gitkeep
-# !data_source/log/.gitkeep
-# !data_source/tmp/.gitkeep
-# !outputs/.gitkeep
-
-
-
+# Files larger than GitHub LFS limit
+data_source/dataset/glamira_ubl_oct2019_nov2019.tar.gz

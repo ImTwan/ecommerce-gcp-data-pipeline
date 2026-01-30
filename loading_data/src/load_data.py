@@ -14,7 +14,7 @@ logging.basicConfig(
 # AUTHENTICATION
 # -------------------------------------------------
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = (
-    r"D:\python_try_hard\unigap\glamira_project\loading_data\data\json_key\fresh-ocean-475916-m2-d87215690697.json"
+    r"D:\python_try_hard\unigap\glamira_project\data_source\json_key\fresh-ocean-475916-m2-d87215690697.json"
 )
 
 # -------------------------------------------------

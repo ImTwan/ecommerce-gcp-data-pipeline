@@ -157,7 +157,7 @@ summary_schema = {
 # Main export function
 # -----------------------------------------------------------
 def export_to_gcs():
-    LOG_DIR = r"D:\python_try_hard\unigap\glamira_project\loading_data\data\log"
+    LOG_DIR = r"D:\python_try_hard\unigap\glamira_project\data_source\log"
     os.makedirs(LOG_DIR, exist_ok=True)  # ensure folder exists
     LOG_FILE = os.path.join(LOG_DIR, "export_to_gcs.log")
 
@@ -182,7 +182,7 @@ def export_to_gcs():
         logging.info("Connected to MongoDB successfully")
 
         # GCS authentication
-        KEY_PATH = r"D:\python_try_hard\unigap\glamira_project\loading_data\data\json_key\fresh-ocean-475916-m2-d87215690697.json"
+        KEY_PATH = r"D:\python_try_hard\unigap\glamira_project\data_source\json_key\fresh-ocean-475916-m2-d87215690697.json"
         credentials = service_account.Credentials.from_service_account_file(KEY_PATH)
         storage_client = storage.Client(project="fresh-ocean-475916-m2", credentials=credentials)
         BUCKET_NAME = "twan_glamira"
@@ -190,7 +190,7 @@ def export_to_gcs():
         logging.info("GCS authentication successful")
 
         # Temp folders
-        TEMP_DIR = r"D:\python_try_hard\unigap\glamira_project\loading_data\data\tmp"
+        TEMP_DIR = r"D:\python_try_hard\unigap\glamira_project\data_source\tmp"
         SUMMARY_TMP_DIR = os.path.join(TEMP_DIR, "summary_export")
         os.makedirs(SUMMARY_TMP_DIR, exist_ok=True)
 
