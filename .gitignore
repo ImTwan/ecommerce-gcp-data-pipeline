@@ -1,13 +1,18 @@
-# Ignore contents of these folders
-data_source/dataset/
-data_source/json_key/
-data_source/log/
-data_source/tmp/
-outputs/
+# =========================
+# Data source (large files)
+# =========================
 
-# # Keep the folders themselves
-# !data_source/dataset/.gitkeep
-# !data_source/json_key/.gitkeep
-# !data_source/log/.gitkeep
-# !data_source/tmp/.gitkeep
-# !outputs/.gitkeep
+data_source/dataset/*
+data_source/log/*
+data_source/tmp/*
+outputs/*
+data_source/json_key/*
+
+# Allow folder structure to exist
+!data_source/dataset/.gitkeep
+!data_source/log/.gitkeep
+!data_source/tmp/.gitkeep
+!outputs/.gitkeep
+
+
+
