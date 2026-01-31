@@ -133,7 +133,7 @@ Workflow summary:
 * Fully reproducible and modular pipeline
 
 # Reference
-For more detail about every in the project:
+For more details about the project:
 * Extract: https://github.com/ImTwan/Data-Collection-Storage.git
 * Loading: https://github.com/ImTwan/Data-Pipeline-Storage.git
 * Transform: https://github.com/ImTwan/Data-Transformation-Visualization-DBT.git
