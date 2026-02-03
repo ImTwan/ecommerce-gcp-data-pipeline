@@ -1,4 +1,4 @@
-# End-to-End Data Engineering Pipeline on GCP using Glamira dataset
+# End-to-End Data Engineering Pipeline on GCP
 # 📌 Project Overview
 This project implements a production-style, end-to-end data engineering pipeline using Google Cloud Platform (GCP). </br>
 It covers the project's workflow:
@@ -141,7 +141,7 @@ Workflow summary:
 * Fully reproducible and modular pipeline
 
 # Reference
-For more detail about every in the project:
+For more details about the project:
 * Extract: https://github.com/ImTwan/Data-Collection-Storage.git
 * Loading: https://github.com/ImTwan/Data-Pipeline-Storage.git
 * Transform: https://github.com/ImTwan/Data-Transformation-Visualization-DBT.git
