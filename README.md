@@ -97,6 +97,7 @@ Workflow summary:
 * Implemented ELT approach
 * ERD diagram:
 <img src="assets\ERD.png" alt="image" width="1000"/>
+
 * Built:
   * Fact tables (e.g. fact_sales_order)
   * Dimension tables (e.g. dim_customers, dim_store, dim_date, etc.)
