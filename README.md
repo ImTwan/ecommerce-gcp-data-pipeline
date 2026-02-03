@@ -3,7 +3,7 @@
 This project implements a production-style, end-to-end data engineering pipeline using Google Cloud Platform (GCP). </br>
 It covers the project's workflow:
 
-<img src="workflow.PNG" alt="image" width="1000"/>
+<img src="assets\workflow.PNG" alt="image" width="1000"/>
 
 The pipeline processes large-scale MongoDB data, enriches it with IP geolocation, loads it into BigQuery, transforms it using dbt, and prepares analytics-ready datasets for BI reporting (Looker).
 
@@ -51,7 +51,7 @@ Workflow summary:
 │   └── src/
 │       ├── retrieve_data.py     # Extract MongoDB data
 │       ├── ip_location.py       # IP geolocation enrichment
-│       └── crawl_data.py        # Product name crawling
+│       └── crawl_data.py        # Product details crawling
 │
 ├── loading_data/                # Load data into GCP
 │   └── src/
@@ -60,7 +60,7 @@ Workflow summary:
 │       ├── load_data.py         # Load GCS → BigQuery
 │       └── trigger_bigquery_test_on_GCP.py
 │
-├── outputs/                     # Final extracted datasets
+├── outputs/                     # Final extracted data
 │   ├── ip_location_results.csv
 │   ├── product_ids_to_crawl.csv
 │   └── product_info.csv
@@ -95,9 +95,11 @@ Workflow summary:
 
 ## 3. Data Transformation (dbt)
 * Implemented ELT approach
+* ERD diagram:
+<img src="assets\ERD.png" alt="image" width="1000"/>
 * Built:
   * Fact tables (e.g. fact_sales_order)
-  * Dimension tables (customers, store, date, etc.)
+  * Dimension tables (e.g. dim_customers, dim_store, dim_date, etc.)
 * Applied:
   * Deduplication
   * Surrogate keys
@@ -113,6 +115,12 @@ Workflow summary:
   * Null counts
   * Distinct values
   * Type consistency
+
+# Looker Visualization
+<img src="assets\1.PNG" alt="image" width="1000"/>
+<img src="assets\2.PNG" alt="image" width="1000"/>
+<img src="assets\3.PNG" alt="image" width="1000"/>
+<img src="assets\4.PNG" alt="image" width="1000"/>
 
 # 🛠️ Tech Stack
 * Languages: Python, SQL
